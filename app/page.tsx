@@ -1,11 +1,5 @@
-import { ChatSidebar } from "@/components/chat-sidebar"
-import { ChatMain } from "@/components/chat-main"
+import ResearchUI from "../components/ResearchUI"
 
-export default function Home() {
-  return (
-    <div className="flex h-screen bg-background">
-      <ChatSidebar />
-      <ChatMain />
-    </div>
-  )
+export default function Page() {
+  return <ResearchUI />
 }
